@@ -16,6 +16,12 @@ h5,
 h6 {
     font-family: 'Oswald', sans-serif;
 }
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
 /*start header*/
 .header {
     background-image: url(../img/index/Image+Background.webp);
@@ -28,7 +34,12 @@ h6 {
 .navbar-toggler-icon {
     background-image: url(../img/index/bars-solid-full.svg);
 }
+.nav-item a {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
 
+}
 .image img {
     width: 330px;
     height: 32px;
@@ -42,11 +53,6 @@ h6 {
     color: rgb(255, 255, 255);
 }
 
-button {
-    border: none;
-    outline: none;
-    background: none;
-}
 
 .play img {
     width: 24px;
@@ -57,20 +63,43 @@ button {
     font-size: 16.5px;
     font-weight: 700;
     line-height: 16.5px;
-    color: rgb(239, 240, 241);
+    color: rgb(239, 240, 241);    
+    transition: all 0.5s;
+
 }
 
-.nav-item a {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: normal;
-    color: rgb(255, 255, 255);
-}
+
 
 .desOfTitle {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     color: rgb(255, 255, 255);
+}
+
+.play :hover .inplay {
+    text-decoration-line: underline;
+}
+
+.innerreqTContact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 167px;
+    height: 52px;
+    border-radius: 2px;
+    font-size: 16.5px;
+    font-weight: 700;
+    line-height: 16.5px;
+    color: rgb(76, 81, 90);
+}
+.reqTContact a{
+    transition: all 0.5s;
+
+}
+
+.reqTContact :hover{
+    background-color: #fff;
 }
 /*end header*/
