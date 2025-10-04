@@ -9,16 +9,24 @@
 .paddingB21 {
     padding-bottom: 21px;
 }
-
+.paddingB250 {
+    padding-bottom: 250px;
+}
 .paddingB41 {
     padding-bottom: 41px;
 }
 .paddingt55 {
     padding-top: 30px;
 }
+.paddingt250 {
+    padding-top: 250px;
+}
 .paddingLR15{
     padding-left: 15px;
     padding-right: 15px;
+}
+.paddingt100 {
+    padding-top: 100px;
 }
 .gap40{
     gap: 40px;
