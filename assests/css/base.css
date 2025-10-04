@@ -6,8 +6,8 @@
     padding-bottom: 21px;
 }
 
-.paddingB21 {
-    padding-bottom: 21px;
+.paddingB82 {
+    padding-bottom: 82px;
 }
 .paddingB250 {
     padding-bottom: 250px;
@@ -17,6 +17,9 @@
 }
 .paddingt55 {
     padding-top: 30px;
+}
+.paddingt40 {
+    padding-top: 40px;
 }
 .paddingt250 {
     padding-top: 250px;
@@ -31,9 +34,16 @@
 .gap40{
     gap: 40px;
 }
+.gap15{
+    gap: 15px;
+}
 .bg-yellow{
     background-color: #FFC560;
 }
 .text-coldark{
     color: #0B121F;
+}
+.border2{
+    border-color: #F7F7F1;
+    border-width: 2px;
 }
