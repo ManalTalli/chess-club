@@ -28,14 +28,28 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.paddingLR45{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
 .paddingt100 {
     padding-top: 100px;
+}
+.paddingt80 {
+    padding-top: 80px;
 }
 .gap40{
     gap: 40px;
 }
 .gap15{
     gap: 15px;
+}
+.gap10{
+    gap: 10px;
+}
+.gap30{
+    gap: 40px;
 }
 .bg-yellow{
     background-color: #FFC560;
