@@ -19,6 +19,13 @@ p {
     color: rgb(128, 128, 128);
 }
 
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: #fff;
+}
+
 h1,
 h2,
 h3,
@@ -54,7 +61,8 @@ button {
     color: #ffffff;
 
 }
-.nav-item a{
+
+.nav-item a {
     transition: all 0.5S;
 }
 
@@ -117,7 +125,7 @@ button {
     font-size: 16.5px;
     font-weight: 700;
     line-height: 16.5px;
-    color: rgb(76, 81, 90);
+    color: #0B121F;
 }
 
 .reqTContact a {
@@ -153,7 +161,8 @@ button {
     color: rgb(11, 18, 31);
 
 }
-.about p{
+
+.about p {
     padding-top: 21px;
 }
 
@@ -163,46 +172,86 @@ button {
     line-height: 32.5px;
     color: rgb(11, 18, 31);
 }
+
 /*about us end*/
 /*offer start*/
-.aboutOffer{
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
+.aboutOffer {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
 }
-.carousel-item img{
+
+.item1 {
+    background-image: url(../img/index/pgKing.webp);
+    background-size: cover;
     width: 708px;
     height: 502px;
-    object-fit: cover;
-    object-position: -166px;
+    background-position: -166px;
+    background-repeat: no-repeat;
+}
 
+.item2 {
+    background-image: url(../img/index/bgKnight.webp);
+    background-size: cover;
+    width: 708px;
+    height: 502px;
+    background-position: -166px;
+    background-repeat: no-repeat;
 }
-.carousel-indicators{
-bottom: -65px;
+
+.item3 {
+    background-image: url(../img/index/bgPawn.webp);
+    background-size: cover;
+    width: 708px;
+    height: 502px;
+    background-position: -166px;
+    background-repeat: no-repeat;
 }
-.carousel-indicators [data-bs-target]{
-        background-color: #FFC560;
+
+.carousel-indicators {
+    bottom: -65px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #FFC560;
     width: 10px;
     height: 10px;
     border-radius: 50%;
+
+}
+
+.carousel-control-prev {
+    left: -80px;
+}
+
+.carousel-control-next {
     
 }
 
-.carousel-control-prev{
-    left: -80px;
-}
-.carousel-control-next{
-    right: -80px;
-}
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     width: 32px;
     height: 32px;
     background-color: #FFC560;
     border-radius: 50%;
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
     width: 32px;
     height: 32px;
     background-color: #FFC560;
     border-radius: 50%;
+}
+
+.ff {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 47px;
+    border-radius: 2px;
+    font-size: 16.5px;
+    font-weight: 700;
+    line-height: 16.5px;
+    color: #0B121F;
 }

@@ -15,6 +15,9 @@
 .paddingB41 {
     padding-bottom: 41px;
 }
+.paddingB15{
+    padding-bottom: 15px;
+}
 .paddingt55 {
     padding-top: 30px;
 }
@@ -27,6 +30,10 @@
 .paddingLR15{
     padding-left: 15px;
     padding-right: 15px;
+}
+.paddingLR120{
+    padding-left: 106px;
+    padding-right: 106px;
 }
 .paddingLR45{
     padding-left: 35px;
