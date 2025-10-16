@@ -5,6 +5,9 @@
 .paddingB21 {
     padding-bottom: 21px;
 }
+.paddingB28 {
+    padding-bottom: 28px;
+}
 
 .paddingB82 {
     padding-bottom: 82px;
@@ -57,6 +60,9 @@
 }
 .gap30{
     gap: 40px;
+}
+.marginB115{
+    margin-bottom: 115px;
 }
 .bg-yellow{
     background-color: #FFC560;
