@@ -247,7 +247,6 @@ button {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 102px;
     height: 47px;
     border-radius: 2px;
     font-size: 16.5px;
@@ -282,9 +281,9 @@ button {
 .discount {
     background-image: url(../img/index/ImageBackground.webp);
     background-size: cover;
-    background-position: -160px;
+    padding-top: 110px;
+    padding-bottom: 110px;
     background-repeat: no-repeat;
-    height: 700px;
 }
 
 .reqinner1 {
@@ -344,3 +343,84 @@ button {
 }
 
 /*discount end*/
+/*start events*/
+.card1 {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.05); 
+    background-clip: border-box;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);   
+}
+.card1 .event-time{
+    font-family: Oswald, sans-serif;
+font-size: 25px;
+font-weight: 700;
+line-height: 32.5px;
+color: rgb(255, 197, 96);
+}
+.card1 .player-name{
+    font-family: "PT Sans", sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25.5px;
+color: rgb(255, 255, 255);
+}
+.card1 img{
+    width: 170px;
+    height: 170px;
+}
+.card1 p{
+    font-family: "PT Sans", sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25.5px;
+color: rgb(255, 255, 255);
+}
+.card1 a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: #fff;
+
+}
+@media screen and (max-width:1000px){
+    .card1 p{
+        display: none;
+    }
+    .card1 a{
+        font-size: 17px;
+    font-weight: 600;
+    line-height: 32.5px;
+    }
+    .card1 img{
+        display: none;
+    }
+}
+.card1 a :hover{
+
+}
+/*end events*/
