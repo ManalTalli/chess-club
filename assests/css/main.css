@@ -70,7 +70,7 @@ button {
     color: rgb(255, 197, 96);
     text-decoration-line: underline;
     text-decoration-color: #fff;
-    
+
 }
 
 .image img {
@@ -410,7 +410,7 @@ button {
     font-weight: 700;
     line-height: 32.5px;
     color: #fff;
-    transition:all 0.5s;
+    transition: all 0.5s;
 
 }
 
@@ -430,8 +430,63 @@ button {
     }
 }
 
-.card1 a:hover{
+.card1 a:hover {
     text-decoration-line: underline;
 }
 
 /*end events*/
+/*schedule start*/
+.body-schedule {
+    background-image: url(../img/index/yellowWhiteBG.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.after-title::after {
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 32px;
+    width: 206px;
+    border-bottom: 1px solid rgba(11, 18, 31, 0.16);
+}
+
+.time {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.5px;
+    color: rgb(11, 18, 31);
+}
+
+.groups {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(128, 128, 128);
+}
+.learn a{
+    font-family: "PT Sans", sans-serif;
+font-size: 15px;
+font-weight: 700;
+line-height: 15px;
+color: #0B121F;
+transition: all 0.5s;
+}
+.learn button{
+    border: 3px solid #0B121F;
+    border-radius: 2px;
+    padding: 10px 25px;
+    transition: all 0.5s;
+}
+.learn button:hover{
+    background-color: #0B121F;
+    color: #ffffff;
+}
+.learn button:hover a{
+    color: #ffffff;
+}
+
+/*schedule end*/
