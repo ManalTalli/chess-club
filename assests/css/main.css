@@ -25,11 +25,17 @@ h3 {
     line-height: 32.5px;
     color: #fff;
 }
+h4{
+    font-family: "PT Sans", sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 31.9px;
+color: rgb(128, 128, 128);
+}
 
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     font-family: 'Oswald', sans-serif;
@@ -490,3 +496,66 @@ transition: all 0.5s;
 }
 
 /*schedule end*/
+/*Championship start*/
+.player-det{
+    padding-right: 100px;
+    position: relative;
+}
+.Championship-details .img1{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: -25px;
+}
+.Championship-details .img2{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.det-after1::after{
+    position: absolute;
+    content: "";
+    width: 415px;
+    border: 1px solid rgba(11, 18, 31, 0.16);
+    top: 25px;
+    left: 127px;
+}
+.det-after2::after{
+    position: absolute;
+    content: "";
+    width: 415px;
+    border: 1px solid rgba(11, 18, 31, 0.16);
+    top: 25px;
+    left: 127px;
+}
+.det-after3::after{
+    position: absolute;
+    content: "";
+    width: 405px;
+    border: 1px solid rgba(11, 18, 31, 0.16);
+    top: 25px;
+    left: 140px;
+}
+.det-after4::after{
+    position: absolute;
+    content: "";
+    width: 362px;
+    border: 1px solid rgba(11, 18, 31, 0.16);
+    top: 25px;
+    left: 183px;
+}
+.img3{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: -25px;
+}
+.sam{
+    font-family: Oswald, sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+}
+
+/*Championship end*/
+/*end main*/
