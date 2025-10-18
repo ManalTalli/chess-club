@@ -25,12 +25,13 @@ h3 {
     line-height: 32.5px;
     color: #fff;
 }
-h4{
+
+h4 {
     font-family: "PT Sans", sans-serif;
-font-size: 22px;
-font-weight: 700;
-line-height: 31.9px;
-color: rgb(128, 128, 128);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31.9px;
+    color: rgb(128, 128, 128);
 }
 
 h1,
@@ -473,46 +474,53 @@ button {
     line-height: 25.5px;
     color: rgb(128, 128, 128);
 }
-.learn a{
+
+.learn a {
     font-family: "PT Sans", sans-serif;
-font-size: 15px;
-font-weight: 700;
-line-height: 15px;
-color: #0B121F;
-transition: all 0.5s;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #0B121F;
+    transition: all 0.5s;
 }
-.learn button{
+
+.learn button {
     border: 3px solid #0B121F;
     border-radius: 2px;
     padding: 10px 25px;
     transition: all 0.5s;
 }
-.learn button:hover{
+
+.learn button:hover {
     background-color: #0B121F;
     color: #ffffff;
 }
-.learn button:hover a{
+
+.learn button:hover a {
     color: #ffffff;
 }
 
 /*schedule end*/
 /*Championship start*/
-.player-det{
+.player-det {
     padding-right: 100px;
     position: relative;
 }
-.Championship-details .img1{
+
+.Championship-details .img1 {
     width: 70px;
     height: 70px;
     object-fit: cover;
     object-position: -25px;
 }
-.Championship-details .img2{
+
+.Championship-details .img2 {
     width: 70px;
     height: 70px;
     object-fit: cover;
 }
-.det-after1::after{
+
+.det-after1::after {
     position: absolute;
     content: "";
     width: 415px;
@@ -520,7 +528,8 @@ transition: all 0.5s;
     top: 25px;
     left: 127px;
 }
-.det-after2::after{
+
+.det-after2::after {
     position: absolute;
     content: "";
     width: 415px;
@@ -528,7 +537,8 @@ transition: all 0.5s;
     top: 25px;
     left: 127px;
 }
-.det-after3::after{
+
+.det-after3::after {
     position: absolute;
     content: "";
     width: 405px;
@@ -536,7 +546,8 @@ transition: all 0.5s;
     top: 25px;
     left: 140px;
 }
-.det-after4::after{
+
+.det-after4::after {
     position: absolute;
     content: "";
     width: 362px;
@@ -544,151 +555,243 @@ transition: all 0.5s;
     top: 25px;
     left: 183px;
 }
-.img3{
+
+.img3 {
     width: 120px;
     height: 120px;
     object-fit: cover;
     object-position: -25px;
 }
-.sam{
+
+.sam {
     font-family: Oswald, sans-serif;
-font-size: 32px;
-font-weight: 700;
-line-height: 38.4px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
 }
 
 
 @media screen and (max-width:1400px) {
-    .det-after1::after{
-    position: absolute;
-    content: "";
-    width: 315px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 127px;
-}
-.det-after2::after{
-    position: absolute;
-    content: "";
-    width: 315px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 127px;
-}
-.det-after3::after{
-    position: absolute;
-    content: "";
-    width: 305px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 140px;
-}
-.det-after4::after{
-    position: absolute;
-    content: "";
-    width: 262px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 183px;
-}
+    .det-after1::after {
+        position: absolute;
+        content: "";
+        width: 315px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 127px;
+    }
+
+    .det-after2::after {
+        position: absolute;
+        content: "";
+        width: 315px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 127px;
+    }
+
+    .det-after3::after {
+        position: absolute;
+        content: "";
+        width: 305px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 140px;
+    }
+
+    .det-after4::after {
+        position: absolute;
+        content: "";
+        width: 262px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 183px;
+    }
 
 }
+
 @media screen and (max-width:1200px) {
-    .det-after1::after{
-    position: absolute;
-    content: "";
-    width: 215px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 127px;
-}
-.det-after2::after{
-    position: absolute;
-    content: "";
-    width: 215px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 127px;
-}
-.det-after3::after{
-    position: absolute;
-    content: "";
-    width: 205px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 140px;
-}
-.det-after4::after{
-    position: absolute;
-    content: "";
-    width: 162px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 183px;
-}
+    .det-after1::after {
+        position: absolute;
+        content: "";
+        width: 215px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 127px;
+    }
+
+    .det-after2::after {
+        position: absolute;
+        content: "";
+        width: 215px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 127px;
+    }
+
+    .det-after3::after {
+        position: absolute;
+        content: "";
+        width: 205px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 140px;
+    }
+
+    .det-after4::after {
+        position: absolute;
+        content: "";
+        width: 162px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 183px;
+    }
 
 }
+
 @media screen and (max-width:991px) {
-    .det-after1::after{
-    position: absolute;
-    content: "";
-    width: 115px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 127px;
-}
-.det-after2::after{
-    position: absolute;
-    content: "";
-    width: 115px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 127px;
-}
-.det-after3::after{
-    position: absolute;
-    content: "";
-    width: 105px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 140px;
-}
-.det-after4::after{
-    position: absolute;
-    content: "";
-    width: 62px;
-    border: 1px solid rgba(11, 18, 31, 0.16);
-    top: 25px;
-    left: 183px;
-}
-.rating{
-    gap: 90px;
-}
+    .det-after1::after {
+        position: absolute;
+        content: "";
+        width: 115px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 127px;
+    }
+
+    .det-after2::after {
+        position: absolute;
+        content: "";
+        width: 115px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 127px;
+    }
+
+    .det-after3::after {
+        position: absolute;
+        content: "";
+        width: 105px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 140px;
+    }
+
+    .det-after4::after {
+        position: absolute;
+        content: "";
+        width: 62px;
+        border: 1px solid rgba(11, 18, 31, 0.16);
+        top: 25px;
+        left: 183px;
+    }
+
+    .rating {
+        gap: 90px;
+    }
 
 }
+
 @media screen and (max-width:768px) {
-    .det-after1::after{
-  
-    width: 0;
-  
-}
-.det-after2::after{
-    
-    width: 0px;
+    .det-after1::after {
 
-}
-.det-after3::after{
-    
-    width: 0px;
-   
-}
-.det-after4::after{
-   
-    width: 0;
-  
-}
+        width: 0;
+
+    }
+
+    .det-after2::after {
+
+        width: 0px;
+
+    }
+
+    .det-after3::after {
+
+        width: 0px;
+
+    }
+
+    .det-after4::after {
+
+        width: 0;
+
+    }
 }
 
 
 /*Championship end*/
 /*end main*/
+/*start footer*/
+.footer {
+    background-image: url(../img/index/footerBG.webp);
+    background-size: cover;
+    height: 565.5px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-repeat: no-repeat;
+    background-position: -280px;
+}
+
+.reqinner2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 16.5px;
+    font-weight: 700;
+    line-height: 16.5px;
+    color: #ffffff;
+}
+
+.reqinner2 {
+    transition: all 0.5s;
+
+}
+
+.reqTContact2 a {
+    padding: 18px 26px;
+    transition: all 0.5s;
+    background-color: #0B121F;
+
+}
+
+.reqTContact2 :hover {
+    background-color: #FFC560;
+    color: #0B121F;
+}
+
+.footer h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 95px;
+    font-weight: 700;
+    line-height: 95px;
+    color: rgb(255, 255, 255);
+}
+
+.footer p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width:1770px) {
+    .footer {
+        background-position: 0px;
+
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .footer h2 {
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+
+}
+
+/*end footer*/
