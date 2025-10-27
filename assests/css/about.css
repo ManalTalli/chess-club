@@ -158,3 +158,53 @@ button {
         flex-wrap: wrap;
     }
 }
+
+/*end about*/
+/*start result of number*/
+.aboutOffer {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.st-res {
+    background-image: url(../img/about/king.webp);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 370px;
+    background-size: contain;
+}
+.nd-res {
+    background-image: url(../img/about/queen.webp);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 370px;
+    background-size: contain;
+}
+.rd-res {
+    background-image: url(../img/about/knight.webp);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 370px;
+    background-size: contain;
+}
+
+.res span {
+    border: 2px solid #fff;
+    background-color: #0B121F;
+    position: relative;
+    top: 185px;
+    right: 65px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(255, 197, 96);
+    width: 100px;
+    height: 100px;
+    
+}
+.res h3{
+    top: 300px;
+    left: 50px;
+}
