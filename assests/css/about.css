@@ -208,3 +208,15 @@ button {
     top: 300px;
     left: 50px;
 }
+/*end result of number*/
+/*stard award*/
+.award-pic{
+width: 263px;
+height: 203px;
+}
+.award-pic img{
+    object-fit: contain;
+    width: 157px;
+height: 157px;
+}
+/*end award*/
