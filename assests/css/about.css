@@ -253,5 +253,17 @@ button {
     height: 405px;
     object-fit: cover;
 }
+@media screen and (max-width: 1200px){
+    .outerCard{
+        flex-wrap: wrap
+    }
+    .cardImg{
+         width: 270px;
+    height: 405px;
 
-/*start Team*/
+    }
+};
+    
+
+
+/*end Team*/
