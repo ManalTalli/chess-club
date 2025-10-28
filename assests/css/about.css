@@ -46,7 +46,13 @@ button {
     outline: none;
     background: none;
 }
-
+span{
+    font-family: "PT Sans", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 19.6px;
+color: rgb(255, 197, 96);
+}
 /*start header*/
 .header {
     background-image: url(../img/about/bgheader.webp);
@@ -263,7 +269,15 @@ button {
 
     }
 };
-    
-
-
 /*end Team*/
+/*start Testimonials*/
+.testImg img{
+    width: 520px;
+    height: 332px;
+    object-fit: cover;
+}
+.testImg{
+    width: 1040px;
+    height: 331.59px;
+}
+/*end Testimonials*/
