@@ -193,4 +193,26 @@ font-weight: 400;
 line-height: 25.5px;
 color: rgb(128, 128, 128);
 }
+
+@media screen and (max-width: 1400px){
+    .bg {
+    width: 270px;
+    height: 458.39px;
+
+}
+}
+@media screen and (max-width: 1000px){
+    .price {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+}
+@media screen and (max-width: 500px){
+.aboutUs h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 75px;
+}
+}
 /*end Pricing*/
