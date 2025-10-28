@@ -45,6 +45,9 @@
 .paddingB50 {
     padding-bottom: 50px;
 }
+.paddingT50 {
+    padding-top: 50px;
+}
 .paddingB60 {
     padding-bottom: 60px;
 }
@@ -176,6 +179,6 @@
 .margin-left{
     margin-left: 310px;
 }
-.h{
+.color-C34337{
     color: #C34337;
 }
