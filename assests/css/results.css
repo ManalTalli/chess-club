@@ -12,9 +12,10 @@ a {
 }
 
 p {
-    font-size: 17px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 25.5px;
+    line-height: 28px;
     color: rgb(128, 128, 128);
 }
 
@@ -46,13 +47,15 @@ button {
     outline: none;
     background: none;
 }
-span{
+
+span {
     font-family: "PT Sans", sans-serif;
-font-size: 14px;
-font-weight: 700;
-line-height: 19.6px;
-color: rgb(255, 197, 96);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    color: rgb(255, 197, 96);
 }
+
 /*start header*/
 .header {
     background-image: url(../img/result/resultBG.webp);
@@ -95,13 +98,15 @@ color: rgb(255, 197, 96);
     color: rgb(255, 255, 255);
     top: 190px;
 }
-@media screen and (max-width: 500px){
-.aboutUs h1 {
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 75px;
+
+@media screen and (max-width: 500px) {
+    .aboutUs h1 {
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 75px;
+    }
 }
-}
+
 /*end header*/
 /*start Tournaments*/
 .queen {
@@ -130,6 +135,14 @@ color: rgb(255, 197, 96);
 
 }
 
+.inabout {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(128, 128, 128);
+}
+
 
 @media screen and (max-width:760px) {
     .queen {
@@ -148,32 +161,34 @@ color: rgb(255, 197, 96);
 
     }
 }
+
 @media screen and (max-width:445px) {
     .queen {
         width: 340px;
         height: 270px;
     }
+
     .about h2 {
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 45.2px;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 45.2px;
     }
 }
 
 .detailsCard h3 {
-   font-family: Oswald, sans-serif;
-font-size: 32px;
-font-weight: 700;
-line-height: 38.4px;
-color: rgb(21, 35, 60);
+    font-family: Oswald, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    color: rgb(21, 35, 60);
 }
 
 .detailsCard a {
     font-family: "PT Sans", sans-serif;
-font-size: 17px;
-font-weight: 700;
-line-height: 25.5px;
-color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.5px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .event .card {
@@ -189,18 +204,129 @@ color: rgba(0, 0, 0, 0.5);
         line-height: 75px;
     }
 }
-.left{
+
+.left {
     position: relative;
     top: 10px;
 }
+
 .left {
     position: relative;
-top: 202px;
-left: 130px;
+    top: 202px;
+    left: 130px;
 }
+
 .right {
     position: relative;
-bottom: 235px;
-left: 1350px;
+    bottom: 235px;
+    left: 1350px;
 }
+
 /*end Tournaments*/
+/*start Gallery*/
+.galimg {
+    width: 1170px;
+    height: 731px;
+}
+
+.imgs img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1400px) {
+    .galimg {
+        width: 1000px;
+        height: 700px;
+
+    }
+
+    .imgs {
+        width: 1000px;
+        justify-content: space-between;
+    }
+
+    .imgs img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .galimg {
+        width: 800px;
+        height: 500px;
+
+    }
+
+    .imgs {
+        width: 800px;
+        justify-content: space-between;
+    }
+
+    .imgs img {
+        width: 190px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .galimg {
+        width: 600px;
+        height: 400px;
+    }
+
+    .imgs {
+        width: 600px;
+        justify-content: space-between;
+    }
+
+    .imgs img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .gallery .container {
+        padding: 0px 0px 0px 30px;
+    }
+
+    .galimg {
+        width: 500px;
+        height: 300px;
+    }
+
+    .imgs {
+        width: 500px;
+        justify-content: space-between;
+    }
+
+    .imgs img {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media screen and (max-width:490px) {
+    .gallery .container {
+        padding: 0px 0px 0px 25px;
+    }
+
+    .galimg {
+        width: 290px;
+        height: 300px;
+    }
+
+    .imgs {
+        width: 290px;
+        justify-content: space-between;
+    }
+
+    .imgs img {
+        width: 60px;
+        height: 120px;
+    }
+}
+
+/*end Gallery*/
