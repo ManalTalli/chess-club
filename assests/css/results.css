@@ -159,4 +159,48 @@ color: rgb(255, 197, 96);
     line-height: 45.2px;
     }
 }
+
+.detailsCard h3 {
+   font-family: Oswald, sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+color: rgb(21, 35, 60);
+}
+
+.detailsCard a {
+    font-family: "PT Sans", sans-serif;
+font-size: 17px;
+font-weight: 700;
+line-height: 25.5px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.event .card {
+    width: 263px;
+    height: 404px;
+    border: 2px solid #F7F7F1;
+}
+
+@media screen and (max-width: 500px) {
+    .aboutUs h1 {
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 75px;
+    }
+}
+.left{
+    position: relative;
+    top: 10px;
+}
+.left {
+    position: relative;
+top: 202px;
+left: 130px;
+}
+.right {
+    position: relative;
+bottom: 235px;
+left: 1350px;
+}
 /*end Tournaments*/
