@@ -290,43 +290,95 @@ span {
 
 @media screen and (max-width:770px) {
     .gallery .container {
-        padding: 0px 0px 0px 30px;
+        padding: 0px 0px 0px 20px;
     }
 
     .galimg {
-        width: 500px;
-        height: 300px;
+        width: 350px;
+        height: 280px;
     }
 
     .imgs {
-        width: 500px;
+        width: 350px;
         justify-content: space-between;
     }
 
     .imgs img {
-        width: 120px;
-        height: 120px;
+        width: 80px;
+        height: 80px;
     }
 }
+
 @media screen and (max-width:490px) {
     .gallery .container {
         padding: 0px 0px 0px 25px;
     }
 
     .galimg {
-        width: 290px;
-        height: 300px;
+        width: 280px;
+        height: 200px;
     }
 
     .imgs {
-        width: 290px;
+        width: 280px;
         justify-content: space-between;
     }
 
     .imgs img {
         width: 60px;
-        height: 120px;
+        height: 60px;
     }
 }
 
 /*end Gallery*/
+/*start video*/
+.vid img {
+    width: 570px;
+    height: 491px;
+    object-fit: cover;
+    position: relative;
+}
+
+@media screen and (max-width:1400px) {
+    .vid {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .video .container {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .vid img {
+        width: 420px;
+        height: 391px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .video .container {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .vid img {
+        width: 329px;
+        height: 391px;
+    }
+
+
+}
+@media screen and (max-width:349px) {
+    .video .container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .vid img {
+        width: 329px;
+        height: 391px;
+    }
+
+
+}
+
+/*end video*/
