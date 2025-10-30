@@ -13,10 +13,10 @@ a {
 
 p {
     font-family: "PT Sans", sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-color: rgb(128, 128, 128);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(128, 128, 128);
 }
 
 h3 {
@@ -127,31 +127,35 @@ span {
     padding-top: 21px;
 }
 
-.detailsCard h3{
+.detailsCard h3 {
     font-family: Oswald, sans-serif;
-font-size: 95px;
-font-weight: 700;
-line-height: 95px;
+    font-size: 95px;
+    font-weight: 700;
+    line-height: 95px;
 }
-.detailsCard p{
+
+.detailsCard p {
     font-family: "PT Sans", sans-serif;
-font-size: 17px;
-font-weight: 400;
-line-height: 25.5px;
-color: rgb(128, 128, 128);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(128, 128, 128);
 }
-.event .card{
+
+.event .card {
     width: 366px;
     height: 342.5px;
     border: 2px solid #F7F7F1;
 }
-@media screen and (max-width: 500px){
-.aboutUs h1 {
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 75px;
+
+@media screen and (max-width: 500px) {
+    .aboutUs h1 {
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 75px;
+    }
 }
-}
+
 /*end miss event*/
 /*start event*/
 .card1 {
@@ -242,6 +246,7 @@ color: rgb(128, 128, 128);
 .card1 a:hover {
     text-decoration-line: underline;
 }
+
 .reqinner {
     display: flex;
     text-align: center;
@@ -254,6 +259,7 @@ color: rgb(128, 128, 128);
     line-height: 15px;
     color: #0B121F;
 }
+
 .reqTContact a {
     transition: all 0.5s;
     padding: 16px 25px;
@@ -264,6 +270,7 @@ color: rgb(128, 128, 128);
     background-color: #0B121F;
     color: #ffffff;
 }
+
 .learn a {
     font-family: "PT Sans", sans-serif;
     font-size: 15px;
@@ -288,7 +295,158 @@ color: rgb(128, 128, 128);
 .learn button:hover a {
     color: #ffffff;
 }
+
 /*end events*/
+/*start SEAT*/
+.seat {
+    background-image: url(../img/events/chessBG.webp);
+    height: 1000px;
+    background-size: cover;
+}
+
+.counter span {
+    font-family: Oswald, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    color: rgb(255, 255, 255);
+}
+
+.counter p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 9px;
+}
+
+.counter {
+    position: relative;
+}
+
+.st::after {
+    content: " ";
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 16px;
+    left: 470px;
+}
+
+.nd::after {
+    content: " ";
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 16px;
+    left: 658px;
+}
+
+.rd::after {
+    content: " ";
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 16px;
+    left: 856px;
+}
+
+.innerreqTContact1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 167px;
+    height: 52px;
+    border-radius: 2px;
+    font-size: 16.5px;
+    font-weight: 700;
+    line-height: 16.5px;
+    color: #0B121F;
+}
+
+.reqTContact1 a {
+    transition: all 0.5s;
+
+}
+
+.reqTContact1 :hover {
+    background-color: #fff;
+}
+
+@media screen and (max-width:1400px) {
+    .st::after {
+        bottom: 16px;
+        left: 400px;
+    }
+
+    .nd::after {
+        bottom: 16px;
+        left: 558px;
+    }
+
+    .rd::after {
+        bottom: 16px;
+        left: 735px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .st::after {
+        bottom: 16px;
+        left: 350px;
+    }
+
+    .nd::after {
+        bottom: 16px;
+        left: 475px;
+    }
+
+    .rd::after {
+        bottom: 16px;
+        left: 615px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .st::after {
+        bottom: 16px;
+        left: 269px;
+    }
+
+    .nd::after {
+        bottom: 16px;
+        left: 355px;
+    }
+
+    .rd::after {
+        bottom: 16px;
+        left: 453px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .st::after {
+        content: none;
+    }
+
+    .nd::after {
+        content: none;
+    }
+
+    .rd::after {
+        content: none;
+    }
+    .counter{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:770px) {
+    .seat{
+        height: 1300px;
+    }
+}
 
 
-
+/*end SEAT*/
