@@ -205,23 +205,6 @@ span {
     }
 }
 
-.left {
-    position: relative;
-    top: 10px;
-}
-
-.left {
-    position: relative;
-    top: 202px;
-    left: 130px;
-}
-
-.right {
-    position: relative;
-    bottom: 235px;
-    left: 1350px;
-}
-
 /*end Tournaments*/
 /*start Gallery*/
 .galimg {
@@ -365,9 +348,8 @@ span {
         width: 329px;
         height: 391px;
     }
-
-
 }
+
 @media screen and (max-width:349px) {
     .video .container {
         padding: 0px 0px 0px 0px;
@@ -377,8 +359,22 @@ span {
         width: 329px;
         height: 391px;
     }
-
-
 }
 
 /*end video*/
+/*start why chess*/
+.list {
+    list-style-image: url(../img/result/square.png);
+    padding-left: 15px;
+}
+
+.list li {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(128, 128, 128);
+    padding-left: 10px;
+}
+
+/*end why chess*/
