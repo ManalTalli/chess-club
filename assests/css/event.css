@@ -13,9 +13,9 @@ a {
 
 p {
     font-family: "PT Sans", sans-serif;
-font-size: 17px;
+font-size: 20px;
 font-weight: 400;
-line-height: 25.5px;
+line-height: 28px;
 color: rgb(128, 128, 128);
 }
 
@@ -100,7 +100,7 @@ span {
 }
 
 /*end header*/
-/*start event*/
+/*start miss event*/
 .chessboard img {
     display: flex;
     width: 100%;
@@ -133,6 +133,13 @@ font-size: 95px;
 font-weight: 700;
 line-height: 95px;
 }
+.detailsCard p{
+    font-family: "PT Sans", sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25.5px;
+color: rgb(128, 128, 128);
+}
 .event .card{
     width: 366px;
     height: 342.5px;
@@ -145,4 +152,143 @@ line-height: 95px;
     line-height: 75px;
 }
 }
-/*end event*/
+/*end miss event*/
+/*start event*/
+.card1 {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.05);
+    background-clip: border-box;
+    border: 1px solid rgba(11, 18, 31, 0.2);
+}
+
+.card1 .event-time {
+    font-family: Oswald, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: #0B121F;
+}
+
+.card1 .player-name {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: #808080;
+}
+
+.card1 img {
+    width: 170px;
+    height: 170px;
+}
+
+.card1 p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+}
+
+.card1 a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: #0B121F;
+    transition: all 0.5s;
+
+}
+
+@media screen and (max-width:1000px) {
+    .card1 p {
+        display: none;
+    }
+
+    .card1 a {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 32.5px;
+    }
+
+    .card1 img {
+        display: none;
+    }
+}
+
+.card1 a:hover {
+    text-decoration-line: underline;
+}
+.reqinner {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #0B121F;
+}
+.reqTContact a {
+    transition: all 0.5s;
+    padding: 16px 25px;
+
+}
+
+.reqTContact :hover {
+    background-color: #0B121F;
+    color: #ffffff;
+}
+.learn a {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #0B121F;
+    transition: all 0.5s;
+}
+
+.learn button {
+    border: 3px solid #0B121F;
+    border-radius: 2px;
+    padding: 10px 25px;
+    transition: all 0.5s;
+}
+
+.learn button:hover {
+    background-color: #0B121F;
+    color: #ffffff;
+}
+
+.learn button:hover a {
+    color: #ffffff;
+}
+/*end events*/
+
+
+
