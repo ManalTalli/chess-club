@@ -1,43 +1,208 @@
 body {
     font-family: 'PT Sans', sans-serif;
 
+}
 
+.container {
+    padding: 0px 75px 0px 75px;
 }
 
 a {
     text-decoration-line: none;
 }
 
+p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(128, 128, 128);
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: #fff;
+}
+
+h4 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31.9px;
+    color: rgb(128, 128, 128);
+}
+
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     font-family: 'Oswald', sans-serif;
 }
+
 button {
     border: none;
     outline: none;
     background: none;
 }
 
+span {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    color: rgb(255, 197, 96);
+}
+
 /*start header*/
 .header {
-    background-image: url(../img/index/Image+Background.webp);
-    height: 100vh;
-    background-position: center;
+    background-image: url(../img/contact/contact.webp);
+    background-position: 10px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    height: 80vh;
+    background-color: #0B121F;
 }
 
 .navbar-toggler-icon {
     background-image: url(../img/index/bars-solid-full.svg);
 }
-.nav-item a {
+
+.nav-item .nav-link {
     font-size: 17px;
     font-weight: 400;
     line-height: normal;
+    color: #ffffff;
 
 }
+
+.nav-item a {
+    transition: all 0.5S;
+}
+
+.nav-item :hover {
+    color: rgb(255, 197, 96);
+    text-decoration-line: underline;
+    text-decoration-color: #fff;
+
+}
+
+.aboutUs h1 {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 95px;
+    font-weight: 700;
+    line-height: 95px;
+    color: rgb(255, 255, 255);
+    top: 190px;
+}
+
+@media screen and (max-width: 500px) {
+    .aboutUs h1 {
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 65px;
+    }
+}
+
 /*end header*/
+/*start Contacts*/
+.about img {
+    width: 80px;
+    height: 30px;
+}
+
+.about h2 {
+    padding-top: 12px;
+    padding-bottom: 17px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55.2px;
+    color: rgb(11, 18, 31);
+
+}
+
+.about p {
+    padding-top: 21px;
+
+}
+
+.address span {
+    font-family: Oswald, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: rgb(255, 197, 96);
+}
+
+.address p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(128, 128, 128);
+}
+
+.bor input {
+    
+    border: 2px solid #F7F7F1;
+
+}
+
+.bor {
+    border: 2px solid #F7F7F1;
+    padding: 82px 100px 24px 100px;
+}
+
+.bor ::placeholder {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.reqinner {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    border-radius: 2px;
+    font-size: 16.5px;
+    font-weight: 700;
+    line-height: 16.5px;
+    color: #0B121F;
+}
+
+.reqTContact input {
+    transition: all 0.5s;
+
+}
+
+.reqTContact :hover {
+    background-color: #0B121F;
+    color: #ffffff;
+}
+
+.numbers a {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(11, 18, 31);
+}
+
+.tel:hover {
+    text-decoration-line: underline;
+}
+
+.mail:hover {
+    text-decoration-line: underline;
+}
+.bor .f{
+    width: 366px;
+}
+/*end Contacts*/
