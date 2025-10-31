@@ -7,7 +7,7 @@
   <title>FAQ</title>
   <meta name="description"
     content="Have questions about our chess club? Find instant answers here on pricing, class schedules, skill levels, trial lessons, and more. Get started today!">
- <!--Oswald font-->
+  <!--Oswald font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -23,7 +23,7 @@
   <!--bootstrab link-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<!--FAQ file-->
+  <!--FAQ file-->
   <link rel="stylesheet" href="assests/css/FAQ.css">
 
   <!--base file-->
@@ -31,8 +31,8 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg paddingt55 paddingLR15">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg paddingt30 paddingLR15">
       <div class="container">
         <a class="navbar-brand" href="./index.html"><img src="./assests/img/index/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -42,31 +42,117 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto text-center gap40">
             <li class="nav-item">
-              <a class="nav-link text-light" href="./About.html">About us</a>
+              <a class="nav-link" href="./About.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./Pricing.html">Pricing</a>
+              <a class="nav-link" href="./Pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./Events.html">Events</a>
+              <a class="nav-link" href="./Events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./Results.html">Results</a>
+              <a class="nav-link" href="./Results.html">Results</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./FAQ.html">FAQ</a>
+              <a class="nav-link" href="./FAQ.html">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./Contacts.html">Contacts</a>
+              <a class="nav-link" href="./Contacts.html">Contacts</a>
             </li>
-            
           </ul>
         </div>
+
+
       </div>
+
+
     </nav>
 
+    <div class="container">
+      <div class="aboutUs">
+        <h1>FAQ</h1>
+      </div>
+    </div>
   </header>
 
+  <main>
+    <section>
+      <div class="accordion accordion-flush container paddingt90 paddingB100" id="accordionFlushExample">
+        <div class="about d-flex flex-column text-center justify-content-center align-items-center paddingB50">
+          <h2>FAQ</h2>
+          <img src="assests/img/index/shape.webp" alt="">
+          <p class="aboutOffer">Here is a list of frequently asked questions about chess and our club:</p>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed faq" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Who can play chess?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body inFaq">Chess is a sport that has virtually no limits. People of any gender and
+              almost
+              any age can play chess.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed faq" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+              At what age can a child play chess?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body inFaq">Children over 6 y.o. can study in our club. We welcome boys and girls.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed faq" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
+              Do you provide classes for professionals?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body inFaq">Yes, our club offers tournament preparation services for professional
+              chess players.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed faq" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+              How often are workshops held?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body inFaq">We regularly conduct master classes, at least once per month. We invite
+              leading champions of the world of chess.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed faq" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+              How many times a week are classes held?
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body inFaq">Chess classes are held four times a week in the evening. However, the
+              schedule may change, so it is better to stay tuned or contact us.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
 
 
 
